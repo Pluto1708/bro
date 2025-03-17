@@ -15,8 +15,8 @@ The **Product Catalogue Application** is a **cloud-based** web application that 
 ## 🏗️ Architecture Diagram  
 
 ```mermaid
-graph TD;
-    A[User (Web Browser)] -->|Sends Request| B[Flask Backend API];
-    B -->|Processes Request| C[Azure SQL Database];
-    C -->|Sends Data| B;
-    B -->|Returns Response| A;
+graph TD
+    A[User (Web Browser)] -->|Sends Request| B[Flask Backend API]
+    B -->|Processes Request| C[Azure SQL Database]
+    C -->|Sends Data| B
+    B -->|Returns Response| A
